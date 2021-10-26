@@ -1,0 +1,291 @@
+body {   
+    background-color: rgba(51, 34, 4, 0.376);
+}
+
+.logomarca{
+    border-radius: 8px;
+}
+
+.centrado {
+    margin: 0 auto;
+   /* padding: 0 1em;*/
+    padding: 0;
+}
+
+@media screen and (min-width: 65em){
+    .centrado {
+        max-width: 65em;    
+    }
+}
+
+.menu-header {
+    padding-bottom: 1em;
+}
+
+.marca {
+   padding-bottom: 1em;
+    /* position: relative; */
+    margin: auto;
+    width: 475px;  
+   /* border: 5px solid;  */ 
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+@media screen and (min-width: 100px) and (max-width: 500px){
+    .marca img{
+        max-width: 300px; 
+       
+    }
+}
+
+#opciones_header ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+   /* background: hsl(0, 0%, 15%);*/   
+}
+
+#opciones_header li a {
+    display: block;
+    text-decoration: none;
+    padding: .6em 1em;
+    background-color:rgba(51, 34, 4, 0.376);
+    color:rgb(75, 202, 118);
+    font-weight: bold;
+    margin-left: 8px;
+    border-radius: 8px;
+}
+
+#opciones_header ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+#opciones_header li {
+    flex: 1 0;
+    text-align: center;
+}
+
+#opciones_header ul li a:link {
+    color: rgb(49, 6, 240);
+    
+}
+
+#opciones_header ul li a:visited {
+    color: rgb(249, 250, 249);
+}
+
+#opciones_header ul li a:hover {
+    background-color:rgb(53, 50, 41);
+    color: rgb(255, 255, 255);
+}
+
+#opciones_header ul li a:active {
+    color: rgb(141, 211, 164);
+}
+
+.color_linea_header_section {
+    /*height: 1px;*/
+    background-color:rgb(53, 50, 41);
+    border-color:rgb(53, 50, 41);
+}
+
+#titulo_section {
+   /* border: 1px solid;*/
+    margin: 15px auto 15px;
+    padding: 0 1em;
+    text-align: justify;
+    font-family: 'Merienda One', cursive;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#linea1 {
+   margin:auto;
+   /*border: 1px solid;*/
+   text-align: center;
+}
+
+.imagenes {
+   /*border: 1px solid;*/
+    margin: 0 auto;
+    padding: 0 1em;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#imagen1 {
+    width: 300px;
+    height: 450px;
+    float: left;
+    background-image: url(../img/postre3.jpg);
+    background-size: cover;
+    /*margin-right: 15px;
+    margin-left: 22px;*/
+    margin: 0 auto;
+    padding: 0 1em;
+    opacity: 0.8;
+    border: 1px solid;
+    border-top-left-radius: 8px;
+}
+
+#imagen1:hover {opacity: 1.0;}
+
+#imagen2 {
+    width: 300px;
+    height: 450px;
+    float: left;
+   /* margin-bottom: 10px;*/
+    background-image: url(../img/Bochas.jpg);
+    background-size: cover;
+    border: 1px solid;
+    margin: 0 auto;
+    padding: 0 1em;
+    opacity: 0.8;
+}
+
+#imagen2:hover {opacity: 1.0;}
+
+#imagen3 {
+    width: 300px;
+    height: 450px;
+    border: 1px solid;
+    float: left;
+   /* margin-bottom: 10px;*/
+    background-image: url(../img/Conos.jpg);
+    background-size: cover;
+    margin: 0 auto;
+    padding: 0 1em;
+    border-top-right-radius: 8px;
+    opacity: 0.8;
+}
+
+#imagen3:hover {opacity: 1.0;}
+
+#imagen4 {
+    width: 300px;
+    height: 450px;
+    border: 1px solid;
+    float: left;
+   /* margin-bottom: 10px;*/
+    background-image: url(../img/Pexels-Frutilla.jpg);
+    background-size: cover;
+    margin: 0 auto;
+    padding: 0 1em;
+    opacity: 0.8;
+    border-bottom-left-radius: 8px;
+}
+
+#imagen4:hover {opacity: 1.0;}
+
+#imagen5 {
+    width: 300px;
+    height: 450px;
+    border: 1px solid;
+    float: left;
+   /* margin-bottom: 10px;*/
+    background-image: url(../img/postre1.jpg);
+    background-size: cover;
+    margin: 0 auto;
+    padding: 0 1em;
+    opacity: 0.8;
+}
+
+#imagen5:hover {opacity: 1.0;}
+
+#imagen6 {
+    width: 300px;
+    height: 450px;
+    border: 1px solid;
+    float: left;
+   /* margin-bottom: 10px;*/
+    background-image: url(../img/postre.jpg);
+    background-size: cover;
+    margin: 0 auto;
+    padding: 0 1em;
+    border-bottom-right-radius: 8px;
+    opacity: 0.8;
+}
+
+#imagen6:hover {opacity: 1.0;}
+
+.color_linea_section_footer {
+    /*height: 1px;*/
+    background-color:rgb(53, 50, 41);
+    border-color:rgb(53, 50, 41);
+    margin: 15px 0;
+}
+
+#info-footer {
+    padding-bottom: 2em;
+    margin-bottom: 2em;
+}
+
+#linea-footer {
+    margin: 0 auto;
+    padding: 0 1em;
+    text-align: center;
+    font-family: 'Merienda One', cursive;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/*NOSOTROS*/
+
+#texto_nosotros {
+    text-align: center;
+    font-family: 'Merienda One', cursive;
+    font-size: x-large;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0px 96px;
+    /*margin: 0 200px;*/
+}
+
+#foto_nosotros {
+    position: relative;
+    border-radius: 8px;
+    animation: foto 10s infinite ease-in-out;
+    animation-direction: alternate;
+    animation-delay: 1s;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 0 100px;
+}
+
+.bordeanimado{
+    border-radius: 30px;
+}
+
+@keyframes foto {
+    0%   {top: 0px; left: 0px;}
+    20%  {top: 0px; left: -100px;}
+    40%  {top: 0px; left: 100px;}
+    60%  {top: 100px; left: 100px;}
+    80%  {top: 100px; left: -100px;}
+    100% {top: 0px; left: -100px;}
+  }
+
+  @media screen and (min-width: 100px) and (max-width: 500px){
+    
+    #foto_nosotros {
+        max-width: 350px;
+        animation: none;
+    }
+
+    #foto_nosotros img{
+        max-width: 300px;
+        padding-left: 35%;
+    }
+}

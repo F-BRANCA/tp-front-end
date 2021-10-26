@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/estilos.css">
+    <link rel="stylesheet" href="../css/ContactoFlexbox.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Festive&family=Merienda+One&display=swap" rel="stylesheet">
+    <title>FIORE GELATTO</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="../JS/TP.js"></script> 
+    
+</head>
+<body>
+    <div class="centrado">
+        <header class="menu-header">
+            <div class="marca">
+                <img class="logomarca" src="../img/FIORE-HEADER.PNG" alt="logo">
+            </div>
+            <nav id="opciones_header">
+                <ul>
+                    <li><a href="../INDICE.html">Inicio</a></li>
+                    <li><a href="Nosotros.html">Nosotros</a></li>
+                    <li><a href="Sabores.html">Sabores</a></li>
+                    <li><a href="Novedades.html">Novedades</a></li>
+                    <li><a href="#">Contacto</a></li>
+                    <li><a href="Pedidos.html">Pedidos</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <hr class="color_linea_header_section">
+        
+        <section>
+            <div class="Contenedor_Novedades">
+                <div class="Contactanos">
+                    <h2 class="contactanos_consulta">Contactanos</h2>
+                </div>
+                <div class="iconos">
+                    <div>
+                        <a id= "Opacidad_Instagram" href="https://www.instagram.com/fiore.gelatto/?hl=es-la" target="blank"><img class="wat_mail" src="../img/Instagram-Logo.png" alt="frut" width="100" height="100"></a>
+                        <aside>
+                            <p>Ingresa a nuestro Instagram</p>
+                        </aside>
+                    </div>
+                    <div>
+                        <img class="wat_mail" src="../img/Whatsapp-Logo.png" alt="frut" width="100" height="100">
+                        <aside>
+                            <p>156879xxxx / 155606xxxx</p>
+                        </aside>
+                    </div>
+                    <div>
+                        <img class="wat_mail" src="../img/MAIL.jpg" alt="frut" width="100" height="100">
+                        <aside>
+                            <p>xxxxxx@gmail.com</p>
+                        </aside>
+                    </div>
+                </div>
+            </div>    
+        </section>
+
+        <section>
+            <div class="Contenedor_Novedades">
+                <div class="borde">
+                    <h2 class="contactanos_consulta">Envianos tu consulta</h2>
+                </div>
+                <div class="borde">
+                    <form action="">
+                        <label id="tipo_letra_label" for="name"><b>Nombre y Apellido</b></label><br>
+                        <input type="text" id="name" name="name" required type="text"><br>
+                        <label id="tipo_letra_label" for="phone"><b>Telefono</b></label><br>
+                        <input type="text" id="phone" name="phone" required type="number" maxlength="12"><br>
+                        <label id="tipo_letra_label" for="email"><b>Email</b></label><br>
+                        <input type="email" id="email" name="email" required type="email"><br>
+                        <label id="tipo_letra_label" for="message"><b>Mensaje</b></label><br>
+                        <textarea name="message" id="message" cols="30" rows="10"></textarea><br>
+                        <button type="submit" id="btnSend"><b>Enviar</b></button>
+                    </form>
+                   <!-- <a href="mailto:franciscobranca@hotmail.com" id="emailfran">mail</a>-->
+                </div>
+            </div>
+        </section>
+
+        <hr class="color_linea_section_footer">
+
+        <footer>
+            <div id="info-footer">
+                <h3 id="linea-footer">2021 © Fiore Gelatto</p>
+            </div>
+
+        </footer>
+    </div>
+
+</body>
+</html>
